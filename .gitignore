@@ -18,3 +18,23 @@ __pycache__/
 # IDEs
 .vscode/
 .idea/
+# Environments
+.venv/
+venv/
+env/
+__pycache__/
+
+# Large Files & Datasets (Going to Drive/OneDrive instead!)
+*.zip
+*.tar.gz
+*.mp4
+/dataset/
+/images/
+/raw_data/
+
+# Mac junk
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
