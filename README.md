@@ -2,7 +2,7 @@
 
 A classical computer vision pipeline for segmenting **donut bodies** and **their inner holes** from industrial conveyor belt images using OpenCV and NumPy.
 
-The pipeline is designed to work under challenging industrial conditions such as uneven lighting, conveyor reflections, flour residue, background machinery, and partially visible donuts, without using any deep learning models.
+The pipeline is designed to work under challenging industrial conditions such as uneven lighting, conveyor reflections, flour residue, background machinery, and partially visible donuts, without using deep learning models.
 
 ---
 
@@ -33,7 +33,37 @@ using a sequence of classical image processing techniques including:
 
 ---
 
+## Repository Structure
 
+```text
+.
+├── README.md
+├── requirements.txt
+├── run.py
+├── docs/
+│   ├── SETUP.md
+│   ├── METHODOLOGY.md
+│   ��── POSTPROCESSING.md
+│   └── RESULTS.md
+├── src/
+├── input_samples/
+└── output_samples/
+```
+
+### Directory Descriptions
+
+- **docs/** – Complete documentation
+  - **SETUP.md** – Installation and execution instructions
+  - **METHODOLOGY.md** – Complete processing pipeline
+  - **POSTPROCESSING.md** – Mask refinement and constraint handling
+  - **RESULTS.md** – Experimental results, limitations, and discussion
+- **src/** – Source code modules (pipeline implementation)
+- **input_samples/** – Sample input images for testing
+- **output_samples/** – Sample output results
+- **run.py** – Main script to execute the pipeline
+- **requirements.txt** – Python dependencies
+
+---
 
 ## Getting Started
 
@@ -91,10 +121,12 @@ Donutstest/
 
 ## Documentation
 
-- **SETUP.md** – Installation and execution instructions
-- **METHODOLOGY.md** – Complete processing pipeline
-- **POSTPROCESSING.md** – Mask refinement and constraint handling
-- **RESULTS.md** – Experimental results, limitations, and discussion
+For detailed information, see the documentation files in the `docs/` directory:
+
+- **[SETUP.md](docs/SETUP.md)** – Installation and execution instructions
+- **[METHODOLOGY.md](docs/METHODOLOGY.md)** – Complete processing pipeline
+- **[POSTPROCESSING.md](docs/POSTPROCESSING.md)** – Mask refinement and constraint handling
+- **[RESULTS.md](docs/RESULTS.md)** – Experimental results, limitations, and discussion
 
 ---
 
@@ -105,4 +137,3 @@ Donutstest/
 - Output folders are created automatically during execution.
 - Invalid images are skipped without stopping the pipeline.
 - One donut mask, one hole mask, and one overlay image are generated for every input image.
-```
