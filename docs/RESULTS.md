@@ -2,7 +2,7 @@
 
 ## Results
 
-The proposed segmentation pipeline was evaluated on five industrial conveyor images (frames **000001–000005**). The generated overlay images were visually inspected to evaluate the quality of donut body and hole segmentation.
+The proposed segmentation pipeline was evaluated on 10 industrial conveyor images. The generated overlay images were visually inspected to evaluate the quality of donut body and hole segmentation.
 
 Overall, the pipeline produced satisfactory results. The majority of donut bodies were successfully segmented, and the corresponding inner holes were correctly identified for most complete donuts. The generated masks closely followed the actual donut boundaries, producing clear separation between the donut body and its center hole.
 
