@@ -45,7 +45,6 @@ using a sequence of classical image processing techniques including:
 │   ├── METHODOLOGY.md
 │   ��── POSTPROCESSING.md
 │   └── RESULTS.md
-├── src/
 ├── input_samples/
 └── output_samples/
 ```
