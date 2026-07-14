@@ -33,20 +33,7 @@ using a sequence of classical image processing techniques including:
 
 ---
 
-## Repository Structure
 
-```text
-.
-├── run.py
-├── requirements.txt
-├── README.md
-├── methodology.md
-├── postprocessing.md
-├── results_and_failure_analysis.md
-├── setup.md
-```
-
----
 
 ## Getting Started
 
